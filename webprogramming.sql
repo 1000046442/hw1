@@ -172,9 +172,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `created_at`) VALUES
-(1, 'Suca', 'chiudiorata@mattia.it', '$2y$10$L20BwNxwVkion3CJZiMqduym9gaabw/QVGbnxrpec1Q2jh.2o1wdO', '2025-06-08 13:44:15'),
+(1, 'Andrea', 'PRova@gmail.it', '$2y$10$L20BwNxwVkion3CJZiMqduym9gaabw/QVGbnxrpec1Q2jh.2o1wdO', '2025-06-08 13:44:15'),
 (2, 'saro', 'test@gmail.com', '$2y$10$iCqDY1Ju834Vbbsk6peufe4i/ONPOxf5XczlHuvV9T2HcVO1BHg6m', '2025-06-08 15:31:41'),
-(3, 'chiudiorata@mattia.it', 'sdfkls@gmail.com', '$2y$10$z.wbjYTLPuME2XF6/DxN4.nGQt6gNBj8dX6.k1Z935yo7VfsLPemC', '2025-06-08 15:57:28'),
+(3, 'prova@trst.it', 'sdfkls@gmail.com', '$2y$10$z.wbjYTLPuME2XF6/DxN4.nGQt6gNBj8dX6.k1Z935yo7VfsLPemC', '2025-06-08 15:57:28'),
 (4, 'test', 'test@prova.it', '$2y$10$Om09LgoFXJqkFh5l2B/CjO0B9QWtoxyogZ2AUEq3cYxtiLvVCoq8C', '2025-06-10 16:23:22'),
 (6, 'test44', 'saro@gmail.com', '$2y$10$16.8JratCWRHAHAMjaG4W.t90iGSQ1D.GM96p5irtb/SbLVHxwuh.', '2025-06-10 16:24:39');
 
@@ -206,7 +206,7 @@ CREATE TABLE `user_information` (
 
 INSERT INTO `user_information` (`id`, `id_cliente`, `nome`, `cognome`, `data_nascita`, `telefono`, `indirizzo`, `citta`, `cap`, `provincia`, `paese`, `created_at`, `updated_at`) VALUES
 (1, 1, 'sadsa', 'sadsa', '0000-00-00', '', 'trstt', 'Catania', '95123', 'TG', 'Italia', '2025-06-10 15:58:10', '2025-06-10 16:17:21'),
-(2, 6, 'Claudio', 'Ai', '0000-00-00', '', 'Claudio è un fenomeno', 'Catania', '98745', 'RT', 'Italia', '2025-06-10 16:25:30', '2025-06-10 16:25:30');
+(2, 6, 'Claudio', 'prova', '0000-00-00', '', 'TEst', 'Catania', '98745', 'RT', 'Italia', '2025-06-10 16:25:30', '2025-06-10 16:25:30');
 
 --
 -- Indici per le tabelle scaricate
